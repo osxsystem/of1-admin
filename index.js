@@ -8,8 +8,8 @@ admin.initializeApp({
 
 var message = {
   notification: {
-    title: 'Test nodejs via firebase',
-    body: 'How to implement firebase in C#?'
+    title: 'Customclearance task',
+    body: 'Làm thủ tục hải quan cho khách hàng -cty May 10'
   },
   data: {
     msgType: 'Task',
@@ -28,8 +28,8 @@ var message = {
       }
     }
   },
-  token: 'c3_N29gBSe2e9VZdOib0_F:APA91bGFcinkY8Idk2rwZNj_Nq0hCdwPrZBWxscJ7qykbcWDjf3ZehZssFK_IQcRtLlpCOtb-_3j2h07z-X8dglNpU5EPTQw_GiaaeDpGyoEQg6dC3t_mGd9HAwSjHXhP8VgYQMujtnR'
-  // topic: 'OPs task in day.'
+  // token: 'd8YiLLH7SYK-J-lT08H1sl:APA91bHeAB_MMI0AtMJHmA15fr4CxbV_JbRmG07uucajKvwrw99FiEfPcI_Kg22afWHXJYzrgb3HN7upoZeMO3sj_QWgP06I4OMB-iItqThxCLdu5fxxWH2eW3rsXZjDuRvt33YZxGCN'
+  topic: 'customclearance'
 };
 
 admin.messaging().send(message)
